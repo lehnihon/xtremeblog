@@ -1,0 +1,413 @@
+/*
+Theme Name: Xtreme Blog
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: site
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+site is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+#page {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #858585;
+  text-align: center;
+  /* 
+  BLOG
+  */ }
+  #page h1 {
+    color: #00509c;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0; }
+  #page h2 {
+    color: #00509c;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0; }
+  #page h3 {
+    color: #00509c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0; }
+  #page section#header header {
+    margin-top: 10px;
+    background-color: #e7aa07;
+    color: white; }
+    #page section#header header span {
+      padding-top: 2px;
+      display: block;
+      float: left; }
+    #page section#header header ul {
+      padding-top: 2px;
+      padding-left: 5px;
+      float: left; }
+    #page section#header header div.box {
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    #page section#header header span.texto-branco {
+      margin-left: 5px;
+      font-size: 15px; }
+    #page section#header header ul.redes_sociais_header {
+      height: 22px;
+      text-align: left;
+      list-style: none;
+      margin-bottom: 0; }
+    #page section#header header ul.redes_sociais_header li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page section#header header ul.redes_sociais_header li {
+      margin-right: 5px; }
+    #page section#header header ul.redes_sociais_header a {
+      display: inline-block;
+      width: 22px;
+      height: 20px; }
+    #page section#header header ul.redes_sociais_header .youtube {
+      background-image: url("images/redes-top.png");
+      background-position: 5px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .instagram {
+      background-image: url("images/redes-top.png");
+      background-position: -28px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .facebook {
+      background-image: url("images/redes-top.png");
+      background-position: -88px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header .btn-login {
+      background-color: #ffc709;
+      padding: 5px 10px;
+      color: #003869;
+      border: 0;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-left: 10px;
+      font-size: 12px; }
+    #page section#header header .btn-login:hover {
+      background-color: #ffdd6b; }
+  #page section#header nav {
+    padding: 20px 0; }
+    #page section#header nav form.search-form input.pesquisar-input {
+      background-color: #e4e4e4;
+      border: 0;
+      float: left;
+      padding: 10.5px 5px; }
+    #page section#header nav form.search-form input.pesquisar-submit {
+      float: left; }
+    #page section#header nav div.menu-header {
+      margin-top: 25px; }
+      #page section#header nav div.menu-header div.menu-op {
+        float: right;
+        margin-left: 30px;
+        position: relative; }
+        #page section#header nav div.menu-header div.menu-op a {
+          color: #858585;
+          font-weight: bold; }
+        #page section#header nav div.menu-header div.menu-op a:hover {
+          color: #ffc709; }
+        #page section#header nav div.menu-header div.menu-op a.orcamento {
+          border-radius: 5px;
+          background-color: #005197;
+          color: #FFF;
+          padding: 10px 25px; }
+        #page section#header nav div.menu-header div.menu-op a.orcamento:hover {
+          background-color: #7fa8cb; }
+      #page section#header nav div.menu-header button.btn-default {
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        color: #858585;
+        font-weight: bold; }
+    #page section#header nav div.menu-header-blog {
+      margin-top: 15px; }
+      #page section#header nav div.menu-header-blog div.menu-op {
+        margin-top: 12px;
+        float: right;
+        margin-left: 30px; }
+        #page section#header nav div.menu-header-blog div.menu-op a {
+          color: #858585;
+          font-weight: bold; }
+        #page section#header nav div.menu-header-blog div.menu-op a:hover {
+          color: #ffc709; }
+      #page section#header nav div.menu-header-blog div.wrap-search {
+        margin-top: 0;
+        margin-right: 0; }
+  @media (max-width: 991px) {
+    #page div.header-login-responsive {
+      display: block !important; }
+    #page div.header-login {
+      display: none !important; }
+    #page div.menu-responsivo {
+      width: 50px;
+      text-align: left;
+      display: block;
+      padding: 10px; }
+    #page div.menu-header {
+      display: none; }
+    #page div.menu-header-blog {
+      display: none; } }
+  @media (min-width: 992px) {
+    #page div.header-login-responsive {
+      display: none !important; }
+    #page div.header-login {
+      display: block !important; }
+    #page div.menu-responsivo {
+      display: none; }
+    #page ul.menu-header {
+      display: block; }
+    #page div.menu-header-blog {
+      display: block; } }
+  #page section#blog h1 {
+    margin-top: 15px; }
+  #page section#blog h2 {
+    min-height: 44px;
+    margin-top: 15px; }
+  #page section#blog article.article-single {
+    margin-bottom: 50px; }
+  #page section#blog .confira {
+    margin-top: 20px;
+    font-weight: bold; }
+  #page section#blog div.paginacao {
+    margin: 50px 0; }
+  #page section#blog a {
+    color: #00509c; }
+  #page section#blog a:hover {
+    color: #6696c3; }
+  #page section#blog article.linha-blog {
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+  #page section#footer {
+    background-color: #e7aa07;
+    padding: 50px 0;
+    color: white; }
+    #page section#footer ul.menu-footer {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      #page section#footer ul.menu-footer li {
+        float: left;
+        margin-right: 25px;
+        text-align: center; }
+        #page section#footer ul.menu-footer li a {
+          color: white; }
+        #page section#footer ul.menu-footer li a:hover {
+          color: #ffc709; }
+    #page section#footer div.copy-text {
+      font-size: 12px; }
+    #page section#footer a {
+      color: white; }
+    #page section#footer ul.redes_sociais_header {
+      padding: 0;
+      height: 22px;
+      text-align: left;
+      list-style: none;
+      margin-bottom: 0; }
+    #page section#footer ul.redes_sociais_header li {
+      margin-right: 5px; }
+    #page section#footer ul.redes_sociais_header li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page section#footer ul.redes_sociais_header a {
+      display: inline-block;
+      width: 22px;
+      height: 20px; }
+    #page section#footer ul.redes_sociais_header .youtube {
+      background-image: url("images/redes-top.png");
+      background-position: 5px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#footer ul.redes_sociais_header .instagram {
+      background-image: url("images/redes-top.png");
+      background-position: -28px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#footer ul.redes_sociais_header .twitter {
+      background-image: url("images/redes-top.png");
+      background-position: -60px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#footer ul.redes_sociais_header .facebook {
+      background-image: url("images/redes-top.png");
+      background-position: -88px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#footer ul.redes_sociais_header .linkedin {
+      background-image: url("images/redes-top.png");
+      background-position: -116px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+  @media (max-width: 991px) {
+    #page section#footer ul.menu-footer {
+      display: none; } }
+  #page .input-receba {
+    border: 0;
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+    color: #606060; }
+  #page .input-contato {
+    padding: 15px 10px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px; }
+  #page .btn-contato {
+    background-color: #005197;
+    padding: 15px 70px;
+    border-radius: 5px;
+    color: white;
+    border: 0; }
+  #page .btn-contato:hover {
+    background-color: #6696c0; }
+  #page .btn-azulclaro {
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    background-color: #3cc2ff;
+    border: 2px solid #3cc2ff;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out; }
+  #page .btn-azulclaro:hover {
+    border: 2px solid #3cc2ff;
+    background-color: #76d4ff; }
+  #page .btn-azulescuro {
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    background-color: #005197;
+    border: 2px solid #005197;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out; }
+  #page .btn-azulescuro:hover {
+    border: 2px solid #005197;
+    background-color: #4c85b6; }
+  #page .btn-receba {
+    background-color: #4e67cf;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 0; }
+  #page .btn-receba:hover {
+    background-color: #a6b3e7; }
+  #page a.btn-contato {
+    background-color: #00509b;
+    color: white;
+    padding: 25px 50px; }
+  #page a.btn-contato:hover {
+    background-color: #60b2ff; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.cor-amarelo {
+  color: #ffc709; }
+
+.e-cinza:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.e-claro:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */ }
+
+.paginacao .page-numbers {
+  padding: 5px;
+  background-color: #ececec; }
+.paginacao .current {
+  background-color: #ffc700; }
+
+.wow {
+  visibility: hidden; }
+
+section#simulacao {
+  background-color: #c7c7c7;
+  margin-top: -32px;
+  padding: 60px 0;
+  height: 100vh; }
+  section#simulacao .container {
+    background-image: url("images/caixas.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px; }
+    section#simulacao .container h1 {
+      font-size: 24px;
+      margin: 0;
+      margin-bottom: 35px; }
+    section#simulacao .container h2 {
+      margin: 0;
+      margin-bottom: 25px;
+      text-align: center; }
+    section#simulacao .container .input-simulacao {
+      padding: 15px 10px;
+      border: 1px solid #cecece;
+      width: 100%;
+      margin-bottom: 10px; }
+    section#simulacao .container .btn-simulacao {
+      background-color: #cc8919;
+      padding: 15px 70px;
+      color: white;
+      border: 0;
+      width: 100%; }
+    section#simulacao .container span {
+      font-weight: normal; }
+    section#simulacao .container .box {
+      padding: 25px;
+      background-color: white;
+      background: rgba(255, 255, 255, 0.7); }
+
+/*# sourceMappingURL=style.css.map */

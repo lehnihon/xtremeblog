@@ -1,0 +1,237 @@
+/*
+Theme Name: Xtreme Blog
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: site
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+site is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+ 
+#page{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color:#858585;
+	text-align:center;
+
+
+	h1{
+		color:#00509c;
+		font-size: 24px;
+		font-weight: bold;
+		margin-top:0;
+	}
+
+	h2{
+		color:#00509c;
+		font-size: 24px;
+		font-weight: bold;
+		margin-top:0;
+	}
+
+	h3{
+		color:#00509c;
+		font-size: 18px;
+		font-weight: bold;
+		margin-top:0;
+	}
+
+	@import 'header';
+	@import 'content';
+	@import 'footer';
+
+	.input-receba{
+		border:0;
+		padding:10px;
+		width:180px;
+		border-radius: 5px;
+		color:#606060;
+	}
+
+	.input-contato{
+		padding:15px 10px;
+		border:1px solid #cecece;
+		border-radius: 5px;
+		width:100%;
+		margin-bottom:10px;
+	}
+
+	.btn-contato{
+		background-color:#005197;
+		padding:15px 70px;
+		border-radius: 5px;
+		color:white;
+		border:0;
+	}
+
+	.btn-contato:hover{
+		background-color:#6696c0;
+	}
+
+	.btn-azulclaro{
+		padding:15px 50px;
+		border-radius: 5px;
+		color:white;
+		border:0;
+		font-size:16px;
+		background-color:#3cc2ff;
+		border:2px solid #3cc2ff;
+	    -webkit-transition: background-color 0.5s ease-in-out;
+	    -moz-transition: background-color 0.5s ease-in-out;
+	    -o-transition: background-color 0.5s ease-in-out;
+	    -ms-transition: background-color 0.5s ease-in-out;    
+	    transition: background-color 0.5s ease-in-out;
+	}
+
+	.btn-azulclaro:hover{
+		border:2px solid #3cc2ff;
+		background-color:#76d4ff;
+	}
+
+	.btn-azulescuro{
+		padding:15px 50px;
+		border-radius: 5px;
+		color:white;
+		border:0;
+		font-size:16px;
+		background-color:#005197;
+		border:2px solid #005197;
+	    -webkit-transition: background-color 0.5s ease-in-out;
+	    -moz-transition: background-color 0.5s ease-in-out;
+	    -o-transition: background-color 0.5s ease-in-out;
+	    -ms-transition: background-color 0.5s ease-in-out;    
+	    transition: background-color 0.5s ease-in-out;
+	}
+
+	.btn-azulescuro:hover{
+		border:2px solid #005197;
+		background-color:#4c85b6;
+	}
+
+	.btn-receba{ 
+		background-color: #4e67cf;
+		color: white;
+		padding:5px 25px;
+		border-radius: 5px;
+		border:0;
+	}
+	.btn-receba:hover{
+		background-color:#a6b3e7;
+	}
+
+	a.btn-contato{
+		background-color:#00509b;
+		color:white;
+		padding:25px 50px;
+	}
+
+	a.btn-contato:hover{
+		background-color: #60b2ff;
+	}
+
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}	
+
+.cor-amarelo{
+	color:#ffc709;
+}
+
+.e-cinza:hover{
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+
+.e-claro:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.paginacao{
+	.page-numbers{
+		padding:5px;
+		background-color:#ececec;
+	}
+	.current{
+		background-color:#ffc700;
+	}
+}
+
+.wow { visibility: hidden; }
+
+section#simulacao{
+	background-color:#c7c7c7;
+	margin-top:-32px;
+	padding:60px 0;
+	height: 100vh;
+
+
+	.container{
+		background-image: url("images/caixas.png");
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    padding-bottom:50px;
+
+	    h1{
+	    	font-size:24px;
+	    	margin:0;
+	    	margin-bottom:35px;
+	    }
+
+	    h2{
+	    	margin:0;
+	    	margin-bottom:25px;
+	    	text-align:center;
+	    }
+
+		.input-simulacao{
+			padding:15px 10px;
+			border:1px solid #cecece;
+			width:100%;
+			margin-bottom:10px;
+		}
+
+		.btn-simulacao{
+			background-color:#cc8919;
+			padding:15px 70px;
+			color:white;
+			border:0;
+			width:100%;
+		}
+
+		span{
+			font-weight:normal;
+		}
+
+		.box{
+			padding:25px;
+			background-color:white;
+			background: rgba(255,255,255,0.7);
+		}
+	}
+}
+
+

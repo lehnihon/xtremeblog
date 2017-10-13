@@ -1,0 +1,115 @@
+section#footer{
+	background-color:#e7aa07;
+	padding:50px 0;
+	color: white;
+
+	ul.menu-footer{
+		list-style-type: none;
+		padding: 0;
+		margin:0;
+
+		li{
+			float:left;
+			margin-right: 25px;
+			text-align: center;
+
+			a{
+				color: white;
+			}
+
+			a:hover{
+				color: #ffc709;
+			}
+		}
+	}
+	
+	div.copy-text{
+		font-size: 12px;
+	}
+
+	a{
+		color:white;
+	}
+    ul.redes_sociais_header{
+    	padding:0;
+        height: 22px;
+        text-align: left;
+        list-style:none;
+        margin-bottom:0;
+    }
+
+    ul.redes_sociais_header li{
+		margin-right: 5px;
+    }
+
+    ul.redes_sociais_header li:hover{
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+
+    ul.redes_sociais_header a{
+        display: inline-block;
+        width:22px;
+        height:20px;
+    }
+
+     ul.redes_sociais_header .youtube{
+        background-image: url("images/redes-top.png");
+        background-position: 5px,center;
+        background-repeat:no-repeat;
+        width:22px;
+        height:20px;
+        display:inline-block;       
+    }
+
+    ul.redes_sociais_header .instagram{
+        background-image: url("images/redes-top.png");
+        background-position: -28px,center;
+        background-repeat:no-repeat;
+        width:22px;
+        height:20px;
+        display:inline-block;       
+    }
+
+    ul.redes_sociais_header .twitter{
+        background-image: url("images/redes-top.png");
+        background-position: -60px,center;
+        background-repeat:no-repeat;
+        width:22px;
+        height:20px;
+        display:inline-block;       
+    }
+
+    ul.redes_sociais_header .facebook{
+        background-image: url("images/redes-top.png");
+        background-position: -88px,center;
+        background-repeat:no-repeat;
+        width:22px;
+        height:20px;
+        display:inline-block;       
+    }
+
+    ul.redes_sociais_header .linkedin{
+        background-image: url("images/redes-top.png");
+        background-position: -116px,center;
+        background-repeat:no-repeat;
+        width:22px;
+        height:20px;
+        display:inline-block;       
+    }
+
+}
+
+@media (max-width: 991px) {  
+	section#footer{
+		ul.menu-footer{
+			display: none;
+		}
+	}
+}
+
+@media (min-width: 992px) {  
+  
+}
+
+
